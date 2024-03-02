@@ -1,6 +1,8 @@
 import "./Buy.css";
 import cat from "../Assets/Buy/1.jpg";
 import dog from "../Assets/Buy/2.jpg";
+import parrot from "../Assets/Buy/3.jpg";
+import hamster from "../Assets/Buy/4.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
@@ -58,15 +60,15 @@ const Buy = () => {
           <SwiperSlide>
             <div className="buy-cards">
               <div className="card">
-                <img src={cat} className="card-img-top" alt="cat" />
+                <img src={parrot} className="card-img-top" alt="cat" />
                 <div className="card-body">
-                  <h5 className="card-title">Cats</h5>
+                  <h5 className="card-title">Parrots</h5>
                   <p className="card-text">
-                    Cats are the most popular pets in the world. They are known
-                    for their playful nature and their ability to hunt.
+                    Parrots are the most popular pets in the world. They are
+                    known for their talking nature and their ability to mimic.
                   </p>
                   <a href="#" className="btn btn-buy-now">
-                    Buy Now 🧶
+                    Buy Now 🦜
                   </a>
                 </div>
               </div>
@@ -75,15 +77,15 @@ const Buy = () => {
           <SwiperSlide>
             <div className="buy-cards">
               <div className="card">
-                <img src={cat} className="card-img-top" alt="cat" />
+                <img src={hamster} className="card-img-top" alt="cat" />
                 <div className="card-body">
-                  <h5 className="card-title">Cats</h5>
+                  <h5 className="card-title">Hamsters</h5>
                   <p className="card-text">
-                    Cats are the most popular pets in the world. They are known
-                    for their playful nature and their ability to hunt.
+                    Hamsters are the most popular pets in the world. They are
+                    known for their running nature and their ability to store.
                   </p>
                   <a href="#" className="btn btn-buy-now">
-                    Buy Now 🧶
+                    Buy Now 🐹
                   </a>
                 </div>
               </div>
