@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/webx/static/css/main.e6c13ad2.css",
-    "main.js": "/webx/static/js/main.5c71a1d6.js",
+    "main.css": "/webx/static/css/main.ed216c2f.css",
+    "main.js": "/webx/static/js/main.76dbd606.js",
+    "static/media/parrot1.jpg": "/webx/static/media/parrot1.07e1e83f718a953e2ef6.jpg",
+    "static/media/hamster.jpg": "/webx/static/media/hamster.d03b864329e5eb741055.jpg",
+    "static/media/2.jpg": "/webx/static/media/2.5c00a2dcfc357fc6dd6f.jpg",
+    "static/media/vol.jpg": "/webx/static/media/vol.bf957f26fab5f34b6d25.jpg",
+    "static/media/cat 1.jpg": "/webx/static/media/cat 1.a2566040200c6ac997b4.jpg",
+    "static/media/hero.jpg": "/webx/static/media/hero.e5d05f2ee0e13004d374.jpg",
+    "static/media/dog1.jpg": "/webx/static/media/dog1.bf81aa7af86d80d4c50b.jpg",
+    "static/media/dog2.jpg": "/webx/static/media/dog2.4381af143b9c8a85e6bb.jpg",
+    "static/media/parrot2.jpg": "/webx/static/media/parrot2.3ec43ad06fd09561b3cf.jpg",
+    "static/media/about.jpg": "/webx/static/media/about.7fc68f9798a1189165a0.jpg",
+    "static/media/1.jpg": "/webx/static/media/1.2e9b1ff582728148b4a7.jpg",
+    "static/media/cat 2.jpg": "/webx/static/media/cat 2.e693726df92db441602e.jpg",
+    "static/media/upload.png": "/webx/static/media/upload.aecf441c607b6d2e682d.png",
     "index.html": "/webx/index.html",
-    "main.e6c13ad2.css.map": "/webx/static/css/main.e6c13ad2.css.map",
-    "main.5c71a1d6.js.map": "/webx/static/js/main.5c71a1d6.js.map"
+    "main.ed216c2f.css.map": "/webx/static/css/main.ed216c2f.css.map",
+    "main.76dbd606.js.map": "/webx/static/js/main.76dbd606.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.5c71a1d6.js"
+    "static/css/main.ed216c2f.css",
+    "static/js/main.76dbd606.js"
   ]
 }
