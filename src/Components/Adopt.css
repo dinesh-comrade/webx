@@ -1,0 +1,84 @@
+.adopt{
+    max-width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background: url("../Assets/vol.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 3% 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.adopt::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+
+.adopt-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 15% 0;
+}
+
+.adopt-title{
+    color: #33bfbf;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.adopt-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.adopt-title:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.adopt-details{
+    margin-top: 2%;
+    padding: 0 25%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-adopt-now{
+    padding: 1% 3%;
+    margin-top: 2%;
+    border: none;
+    outline: none;
+    background: #33bfbf;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-adopt-now:hover{
+    background: #fff;
+    color: #33bfbf;
+    border: 5px solid #33bfbf;
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
